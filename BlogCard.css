@@ -1,0 +1,33 @@
+.blog-card {
+  background-color: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.blog-card h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: var(--text-color);
+}
+
+.blog-card p {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.blog-card button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: var(--border-radius);
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+}

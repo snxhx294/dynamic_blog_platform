@@ -1,0 +1,14 @@
+.footer {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+}
